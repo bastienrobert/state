@@ -9,7 +9,7 @@ var StateManager = /** @class */ (function () {
         if ((state = [].concat(state))) {
             for (var l = state.length; l--;) {
                 if (!(state[l] in this))
-                    throw 'State ' + state + " doesn't exist";
+                    throw "state " + state + " doesn't exist";
                 ref |= this[state[l]];
             }
         }
@@ -51,7 +51,7 @@ var StateManager = /** @class */ (function () {
      */
     StateManager.prototype.set = function (state) {
         if (!(state in this))
-            throw 'State ' + state + " doesn't exist";
+            throw "state " + state + " doesn't exist";
         this._current = this[state];
         return this;
     };

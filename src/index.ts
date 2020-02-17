@@ -10,9 +10,10 @@ export default class StateManager {
 
   protected _format(state: State | State[]): number {
     let ref = 0
+
     if ((state = [].concat(state))) {
       for (let l = state.length; l--; ) {
-        if (!(state[l] in this)) throw 'State ' + state + " doesn't exist"
+        if (!(state[l] in this)) throw `state ${state} doesn't exist`
         ref |= this[state[l]]
       }
     }
@@ -56,7 +57,7 @@ export default class StateManager {
    * clean and force a state
    */
   public set(state: State): ThisType<State> {
-    if (!(state in this)) throw 'State ' + state + " doesn't exist"
+    if (!(state in this)) throw `state ${state} doesn't exist`
     this._current = this[state]
     return this
   }

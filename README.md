@@ -15,7 +15,7 @@
     <img alt="" src="https://badgen.net/bundlephobia/minzip/@bastienrobert/state">
   </a>
   <a aria-label="maintainability" href="https://codeclimate.com/github/bastienrobert/state/maintainability">
-    <img alt="" src="https://api.codeclimate.com/v1/badges/f3da7bb1259957bbac24/maintainability">
+    <img alt="" src="https://api.codeclimate.com/v1/badges/0b5d6380007835a9ab15/maintainability">
   </a>
   <a aria-label="coverage status" href="https://coveralls.io/github/bastienrobert/state">
     <img alt="" src="https://coveralls.io/repos/github/bastienrobert/state/badge.svg">
