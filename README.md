@@ -4,7 +4,7 @@
 
 <blockquote align="center">
   <em>Very fast cross-platform state management using bitwise operators.</em><br>
-  <em>Fast & <b>359B</b> gzipped (because size matters)</em>
+  <em>Fast & <b>374B</b> gzipped (because size matters)</em>
 </blockquote>
 
 <p align="center">

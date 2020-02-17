@@ -1,12 +1,8 @@
 export declare type State = string;
-/**
- * @todo
- * - state start by 2 because of ref start at 1 on constructor
- * - on get method, weird things are done with any forced type
- */
 export default class StateManager {
     protected _current: number;
     constructor(states: State[]);
+    protected _format(state: State | State[]): number;
     /**
      * add a new state or list of states
      * @param state
